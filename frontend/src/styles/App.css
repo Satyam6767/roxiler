@@ -1,0 +1,76 @@
+/* App.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Dropdown */
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Statistics section */
+.Statistics {
+    margin-bottom: 20px;
+}
+
+.Statistics h3 {
+    margin-bottom: 10px;
+}
+
+.Statistics p {
+    margin: 5px 0;
+}
+
+/* Chart styles */
+.BarChart, .PieChart {
+    margin: 20px 0;
+}
+
+.BarChart h3, .PieChart h3 {
+    margin-bottom: 10px;
+}
